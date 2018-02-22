@@ -260,7 +260,7 @@ if mouse_check_button(mb_left) and reload = true
             
             case 3:
             i=instance_create(x+8,y,obj_bigbullet);
-            i.speed=45+shotspeed;
+            i.speed=50+shotspeed;
             i.direction=point_direction(x,y,mouse_x,mouse_y);
             i.image_index=0;
             alarm[0] = 2/global.shotMulti;
